@@ -1,0 +1,168 @@
+[
+  {
+    "baseFieldList": [
+      {
+        "remark": "ID",
+        "baseType": "Int",
+        "key": true,
+        "canNull": false,
+        "name": "id",
+        "isAuto": true
+      },
+      {
+        "remark": "姓名",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "username",
+        "isAuto": false
+      },
+      {
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "password",
+        "isAuto": false,
+        "remark": "密码"
+      },
+      {
+        "remark": "用户权限",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "userPermissions",
+        "isAuto": false
+      }
+    ],
+    "nameZH": "用户信息",
+    "nameEN": "userInfo"
+  },
+  {
+    "baseFieldList": [
+      {
+        "remark": "ID",
+        "baseType": "Int",
+        "key": true,
+        "canNull": false,
+        "name": "id",
+        "isAuto": true
+      },
+      {
+        "remark": "用户权限",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "userPermissions",
+        "isAuto": false
+      }
+    ],
+    "nameZH": "用户权限",
+    "nameEN": "userPermissions"
+  },
+  {
+    "baseFieldList": [
+      {
+        "remark": "ID",
+        "baseType": "Int",
+        "key": true,
+        "canNull": false,
+        "name": "id",
+        "isAuto": true
+      },
+      {
+        "remark": "类别名称",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "name",
+        "isAuto": false
+      }
+    ],
+    "nameZH": "文档类别",
+    "nameEN": "documentCategory"
+  },
+  {
+    "baseFieldList": [
+      {
+        "remark": "ID",
+        "baseType": "Int",
+        "key": true,
+        "canNull": false,
+        "name": "id",
+        "isAuto": true
+      },
+      {
+        "remark": "名称",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "name",
+        "isAuto": false
+      },
+      {
+        "remark": "内容",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "content",
+        "isAuto": false
+      },
+      {
+        "remark": "文档类别",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "documentCategory",
+        "isAuto": false
+      }
+    ],
+    "nameZH": "文档信息",
+    "nameEN": "documentInfo"
+  },
+  {
+    "baseFieldList": [
+      {
+        "remark": "ID",
+        "baseType": "Int",
+        "key": true,
+        "canNull": false,
+        "name": "id",
+        "isAuto": true
+      },
+      {
+        "remark": "名称",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "name",
+        "isAuto": false
+      },
+      {
+        "remark": "路径",
+        "baseType": "Varchar",
+        "key": false,
+        "canNull": true,
+        "name": "path",
+        "isAuto": false
+      },
+      {
+        "remark": "大小",
+        "baseType": "Int",
+        "key": false,
+        "canNull": true,
+        "name": "size",
+        "isAuto": false
+      },
+      {
+        "remark": "文档ID",
+        "baseType": "Int",
+        "key": false,
+        "canNull": true,
+        "name": "documentId",
+        "isAuto": false
+      }
+    ],
+    "nameZH": "文档附件",
+    "nameEN": "documentAttachment"
+  }
+]
